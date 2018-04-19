@@ -1,0 +1,23 @@
+/* My Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.demo{
+    width: 500px;
+    height: 500px;
+    background-color: #ccc;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}

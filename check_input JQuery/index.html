@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 mx-auto">
+                <form id="myform" method="get">
+                     <div class="form-group" id="name">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name...">
+                    </div>
+                    <div class="form-group" id="surname">
+                        <label for="exampleFormControlInput2">Surname</label>
+                        <input name="surname" type="text" class="form-control" id="exampleFormControlInput2" placeholder="Your surname...">
+                    </div>
+                    <div class="form-group" id="select">
+                        <label for="exampleFormControlSelect1">Example select</label>
+                        <select name="option" class="form-control" id="exampleFormControlSelect1">
+                            <option value="">Select city...</option>
+                            <option value="1">Bakı</option>
+                            <option value="2">Gəncə</option>
+                            <option value="3">Lənkəran</option>
+                            <option value="4">Naxçıvan</option>
+                            <option value="5">Qəbələ</option>
+                        </select>
+                    </div>
+                    <div class="form-group"  id="email">
+                        <label for="exampleFormControlInput3">Email address</label>
+                        <input type="email" name="email" type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group" id="password">
+                        <label for="exampleFormControlInput4">Password</label>
+                        <input name="password" type="password" class="form-control" id="exampleFormControlInput4" >
+                    </div>
+                    
+
+                    <div class="form-group" id="textarea">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea name="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success btn-lg" id="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
